@@ -1,0 +1,104 @@
+%    This program is free software: you can redistribute it and/or modify
+%    it under the terms of the GNU General Public License as published by
+%    the Free Software Foundation, either version 3 of the License, or
+%    (at your option) any later version.
+%
+%    This program is distributed in the hope that it will be useful,
+%    but WITHOUT ANY WARRANTY; without even the implied warranty of
+%    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+%    GNU General Public License for more details.
+%
+%    You should have received a copy of the GNU General Public License
+%    along with this program.  If not, see <http://www.gnu.org/licenses/>.\documentclass[a4paper,11pt]{article}
+%
+%    Spacing from John A Stevenson, University of Edinburgh, Twitter: @volcan01010
+
+\documentclass{letterhead}
+
+\usepackage[scaled]{helvet} % Helvetica.  Similar to Arial as specified by NERC
+\renewcommand*{\familydefault}{\sfdefault} % Helvetica needs default font to be SansSerif
+
+\usepackage{multicol} % Make reference list multicolumn
+
+%%%%%%%%%%% FIGURES:
+\usepackage{graphicx} % Includes graphics
+\usepackage{float} % Allows forcing of figure locations
+\usepackage{wrapfig} % Wraps text round images
+% Change figure caption font
+\usepackage[font=small,format=plain,labelfont=bf,up,textfont=it,up]{caption}
+
+%%%%%%%%%%% SPACE SAVERS:
+\usepackage{mdwlist} % less gaps in itemize sections
+\usepackage{titlesec} % format of section titles
+\titlespacing{\section}{0pt}{8pt}{4pt}
+\titlespacing{\subsection}{0pt}{6pt}{2pt}
+
+\title{Letter of Recommendation}
+
+%% TO FILL: Your Name
+\author{FirstName Surname}
+
+\begin{document}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% TO FILL: Date
+1 Octember YYYY
+
+%% TO FILL (if desired): Addressee
+\medskip
+Addressee\\
+Department\\
+Building\\
+City, State, Zip\\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\medskip
+%% TO FILL: Salutation
+%% For cover letters: Dear {Search Committee/Dr. Search Chair},
+%% For rec letters: To whom it may concern,
+Dear Addressee,
+
+%% TO FILL: Purpose of letter
+%% For cover letters: I am writing in application to the advertised position of X.
+%% For rec letters: I am writing to {recommend that you consider/recommend/strongly recommend/enthusiastically recommend} X for position Y.
+I am writing in application to the advertised position of X.
+%
+%% TO FILL: Establish your credentials
+%% For cover letters: describe key projects with core advisors 
+%% For rec letters: describe your expertise and your background with applicant, establish applicant's credentials
+Paragraph 1
+
+%% TO FILL: Summary paragraph
+%% For cover letters: One paragraph overview of your research agenda
+%% For rec letters: One paragraph overview of what makes their research unique
+Paragraph 2
+
+%% TO FILL: Target paragraph (optional)
+%% For cover letters: target something specific about the target institution that you are excited about or could interface well with
+%% For rec letters: Specific anecdote that showcases applicant strength
+Paragraph 3
+
+%% TO FILL (cover letters): Intruction follower / name dropper
+%% Attached are {all the things you asked for in job ad}. You will receive letters of recommendation from Name1 (email1), Name2 (email2), etc.
+Paragraph 4 (cover)
+
+%% TO FILL (rec letters): Applicant weaknesses and additional strengths/weaknesses
+%% Be candid about applicant weaknesses. Your recommendation letters are only as strong as your word, so you need to divulge perceived weaknesses and only give praise when warranted.
+%% Be up front with applicant when asked, if you cannot write a strong letter.
+%% Keep in mind that others will prioritize weaknesses and strengths differently, so consider whether some weaknesses are offset by some strengths.
+%% Can be helpful to begin a paragraph with a weakness and conclude by connecting it to a strength.
+Paragraphs 4-8 (rec letters)
+
+%% Cover: Uncomment
+% If you would like any additional information, please don't hesitate to contact me.
+
+%% Wrap up
+Sincerely,
+
+%% TO FILL: If desired, include a space to sign or a signature graphic
+%\includegraphics[scale=0.4]{SIGNATURE}
+
+%% TO FILL: Signature
+Signature Block
+
+\end{document}
